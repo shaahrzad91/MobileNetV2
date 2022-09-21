@@ -9,5 +9,6 @@ It is based on an inverted residual structure where the residual connections are
 - This time, the first layer is 1×1 convolution with ReLU6.
 - The second layer is the depthwise convolution.
 - The third layer is another 1×1 convolution but without any non-linearity. It is claimed that if ReLU is used again, the deep networks only have the power    of a linear classifier on the non-zero volume part of the output domain.  
- *** Depthwise convolution is a type of convolution in which each input channel is convolved with a different kernel (called a depthwise kernel).
+
+*** Depthwise convolution is a type of convolution in which each input channel is convolved with a different kernel (called a depthwise kernel).
 
